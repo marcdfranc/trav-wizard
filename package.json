@@ -1,0 +1,22 @@
+{
+  "name": "trav-wizard",
+  "version": "1.0.0",
+  "description": "Form wizard baseado em bootstrap",
+  "main": "gulp.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcdfranc/trav-wizard.git"
+  },
+  "author": "Marcelo Francisco <marcelo.francisco@webtravessa.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcdfranc/trav-wizard/issues"
+  },
+  "homepage": "https://github.com/marcdfranc/trav-wizard#readme"
+}
