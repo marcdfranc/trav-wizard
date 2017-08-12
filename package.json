@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/marcdfranc/trav-wizard/issues"
   },
-  "homepage": "https://github.com/marcdfranc/trav-wizard#readme"
+  "homepage": "https://github.com/marcdfranc/trav-wizard#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.8",
+    "vinyl-paths": "^2.1.0"
+  }
 }

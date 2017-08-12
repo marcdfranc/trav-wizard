@@ -1,0 +1,24 @@
+{
+  "name": "trav-wizard",
+  "description": "Form wizard baseado em bootstrap",
+  "main": "dist/trav-wizard.js",
+  "authors": [
+    "Marcelo Francisco <marcelo.francisco@webtravessa.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/marcdfranc/trav-wizard",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

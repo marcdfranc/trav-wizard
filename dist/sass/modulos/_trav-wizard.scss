@@ -51,11 +51,8 @@
 						}
 
 						&:after {
-							@extend %position-relative;
-							@extend %margin-0-auto;
-
 							content: " ";
-							top: -12px;
+							left: 46%;
 							opacity: 1;
 							border: 10px solid transparent;
 							border-bottom-color: $link-hover-color;

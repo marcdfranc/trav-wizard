@@ -19,7 +19,7 @@
 }
 
 /* line 49, ../../sass/lib/_placeholders.scss */
-.wizard div.wizard-inner .connecting-line, .wizard div.wizard-inner .nav-tabs, .wizard div.wizard-inner .nav-tabs li, .wizard div.wizard-inner .nav-tabs li.active:after {
+.wizard div.wizard-inner .connecting-line, .wizard div.wizard-inner .nav-tabs, .wizard div.wizard-inner .nav-tabs li {
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@
 }
 
 /* line 98, ../../sass/lib/_placeholders.scss */
-.wizard div.wizard-inner, .wizard div.wizard-inner .nav-tabs, .wizard div.wizard-inner .nav-tabs li.active:after, .wizard .tab-pane {
+.wizard div.wizard-inner, .wizard div.wizard-inner .nav-tabs, .wizard .tab-pane {
   position: relative;
 }
 
@@ -102,12 +102,12 @@
 /* line 53, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li.active:after {
   content: " ";
-  top: -12px;
+  left: 46%;
   opacity: 1;
   border: 10px solid transparent;
   border-bottom-color: #23527c;
 }
-/* line 65, ../../sass/modulos/_trav-wizard.scss */
+/* line 62, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li:after {
   content: " ";
   left: 46%;
@@ -123,7 +123,7 @@
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 76, ../../sass/modulos/_trav-wizard.scss */
+/* line 73, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li span.round-tab {
   width: 70px;
   height: 70px;
@@ -136,16 +136,16 @@
   -webkit-border-radius: 100px 100px;
   border-radius: 100px / 100px;
 }
-/* line 90, ../../sass/modulos/_trav-wizard.scss */
+/* line 87, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li span.round-tab:hover {
   background-color: #555555;
   border: 2px solid #23527c;
 }
-/* line 96, ../../sass/modulos/_trav-wizard.scss */
+/* line 93, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li span.round-tab i {
   color: #23527c;
 }
-/* line 103, ../../sass/modulos/_trav-wizard.scss */
+/* line 100, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li a {
   width: 70px;
   height: 70px;
@@ -156,11 +156,11 @@
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 110, ../../sass/modulos/_trav-wizard.scss */
+/* line 107, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li a:hover {
   background: transparent;
 }
-/* line 120, ../../sass/modulos/_trav-wizard.scss */
+/* line 117, ../../sass/modulos/_trav-wizard.scss */
 .wizard .tab-pane {
   padding-top: 50px;
 }
