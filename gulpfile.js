@@ -111,6 +111,8 @@ gulp.task('clear-all', [
 /**
  * Tarefa padrão do Gulp
  */
-gulp.task('default', function () {
+gulp.task('default', function () {7
+	//gulp.watch(['./lib/sources/**/*.js', './application/conf/gulp/js.json'], ['compile-js']);
 
+	gulp.watch(['./src/css/**/*.css'], ['gulp-compile']);
 });

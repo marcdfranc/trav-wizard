@@ -34,7 +34,7 @@
 }
 
 /* line 98, ../../sass/lib/_placeholders.scss */
-.wizard div.wizard-inner, .wizard div.wizard-inner .nav-tabs, .wizard div.wizard-inner .nav-tabs li.active:after, .wizard .tab-pane {
+.wizard div.wizard-inner, .wizard div.wizard-inner .nav-tabs, .wizard div.wizard-inner .nav-tabs li.active:after, .wizard div.wizard-inner .nav-tabs li:after, .wizard .tab-pane {
   position: relative;
 }
 
@@ -86,7 +86,7 @@
   width: 25%;
   background-color: #fff;
 }
-/* line 37, ../../sass/modulos/_trav-wizard.scss */
+/* line 40, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li.active a,
 .wizard div.wizard-inner .nav-tabs li.active a:hover,
 .wizard div.wizard-inner .nav-tabs li.active a:focus {
@@ -94,36 +94,58 @@
   color: #337ab7;
   background-color: #fff;
 }
-/* line 48, ../../sass/modulos/_trav-wizard.scss */
+/* line 51, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li.active span.round-tab {
   background-color: inherit;
   border: 2px solid #337ab7;
 }
-/* line 53, ../../sass/modulos/_trav-wizard.scss */
+/* line 56, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li.active:after {
   content: " ";
   top: -12px;
   opacity: 1;
+  left: 46%;
   border: 10px solid transparent;
   border-bottom-color: #23527c;
-}
-/* line 65, ../../sass/modulos/_trav-wizard.scss */
-.wizard div.wizard-inner .nav-tabs li:after {
-  content: " ";
-  left: 46%;
-  opacity: 0;
-  border: 5px solid transparent;
-  border-bottom-color: #23527c;
-  -moz-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-  -webkit-transition-duration: 0.1s;
-  transition-duration: 0.1s;
+  -moz-transition-delay: 0.9s;
+  -o-transition-delay: 0.9s;
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+  -moz-transition-property: "opacity";
+  -o-transition-property: "opacity";
+  -webkit-transition-property: "opacity";
+  transition-property: "opacity";
+  -moz-transition-duration: 0.9s;
+  -o-transition-duration: 0.9s;
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.9s;
   -moz-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-/* line 76, ../../sass/modulos/_trav-wizard.scss */
+/* line 75, ../../sass/modulos/_trav-wizard.scss */
+.wizard div.wizard-inner .nav-tabs li:after {
+  opacity: 0;
+  content: " ";
+  left: 0%;
+  top: -12px;
+  border: 5px solid transparent;
+  border-bottom-color: #23527c;
+  -moz-transition-property: "opacity";
+  -o-transition-property: "opacity";
+  -webkit-transition-property: "opacity";
+  transition-property: "opacity";
+  -moz-transition-duration: 0.9s;
+  -o-transition-duration: 0.9s;
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.9s;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 90, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li span.round-tab {
   width: 70px;
   height: 70px;
@@ -136,16 +158,16 @@
   -webkit-border-radius: 100px 100px;
   border-radius: 100px / 100px;
 }
-/* line 90, ../../sass/modulos/_trav-wizard.scss */
+/* line 104, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li span.round-tab:hover {
   background-color: #555555;
   border: 2px solid #23527c;
 }
-/* line 96, ../../sass/modulos/_trav-wizard.scss */
+/* line 110, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li span.round-tab i {
   color: #23527c;
 }
-/* line 103, ../../sass/modulos/_trav-wizard.scss */
+/* line 117, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li a {
   width: 70px;
   height: 70px;
@@ -156,11 +178,11 @@
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 110, ../../sass/modulos/_trav-wizard.scss */
+/* line 124, ../../sass/modulos/_trav-wizard.scss */
 .wizard div.wizard-inner .nav-tabs li a:hover {
   background: transparent;
 }
-/* line 120, ../../sass/modulos/_trav-wizard.scss */
+/* line 134, ../../sass/modulos/_trav-wizard.scss */
 .wizard .tab-pane {
   padding-top: 50px;
 }

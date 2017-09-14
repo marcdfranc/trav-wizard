@@ -16,7 +16,7 @@
 				background-color: $gray-lighter;
 				height: 2px;
 				width: 80%;
-				z-index: 1;
+				z-index: 1;				 	
 			}
 
 			.nav-tabs {
@@ -32,6 +32,9 @@
 
 					width: 25%;
 					background-color: $panel-bg;
+					
+					// background-color: red;
+					
 
 					&.active {
 						a,
@@ -51,22 +54,36 @@
 						}
 
 						&:after {
+							@extend %position-relative;
+							@extend %margin-0-auto;							
+							
 							content: " ";
-							left: 46%;
+							top: -12px;
 							opacity: 1;
+							left: 46%;							
 							border: 10px solid transparent;
-							border-bottom-color: $link-hover-color;
+							border-bottom-color: $link-hover-color;	
+							
+							@include transition-delay(0.9s);
+							@include transition-property('opacity');
+							@include transition-duration(0.9s);
+							@include transition-timing-function(ease-in-out);						
 						}
-					}
+
+					}					
 
 					&:after {
+						@extend %position-relative;
+
+						opacity: 0;							
 						content: " ";
-						left: 46%;
-						opacity: 0;
+						left: 0%;		
+						top: -12px;				
 						border: 5px solid transparent;
 						border-bottom-color: $link-hover-color;
-
-						@include transition-duration(0.1s);
+						
+						@include transition-property('opacity');
+						@include transition-duration(0.9s);
 						@include transition-timing-function(ease-in-out);
 					}
 
