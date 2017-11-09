@@ -14,6 +14,10 @@
     "test",
     "tests"
   ],
+  "keywords": [
+    "trav-wizard",
+    "travwizard"
+  ],
   "devDependencies": {
     "bootstrap-sass": "^3.3.7"
   },
